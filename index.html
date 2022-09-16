@@ -1,7 +1,102 @@
 <!DOCTYPE html>
+
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+
+	<head>
+		<title>Miles Corvo</title>
+		<link rel="style" href="styles/style.css">
+	</head>
+
+	<style>
+
+		@font-face
+		{
+			font-family: LadyRadical;
+			src: url("fonts/LadyRadical.ttf");
+		}
+
+		@font-face
+		{
+			font-family: manaspc;
+			src:  url("fonts/manaspc.ttf");
+		}
+
+		body
+		{
+			background-image: url("images/background.jpg");
+			padding: 10%;
+		}
+
+		p
+		{
+			font-family: manaspc;
+			color:  white;
+			margin-top: 2px;
+		}
+
+		.text1
+		{
+			font-family: LadyRadical;
+			color: white;
+			font-size: 40px;
+			text-shadow: 2px 2px grey;
+		}
+
+		.container
+		{
+			border: 3px solid yellow;
+			border-style: ridge;
+			margin-top: 5px;
+			margin-left: 25%;
+			margin-right: 25%;
+			padding: 2%;
+		 	text-align: center;
+
+		 	display: flex;
+		 	flex-direction: row;
+		 	justify-content: space-around;
+		 	flex-wrap: wrap;
+
+		}
+
+	</style>
+
+	<body>
+
+		<div class="container">
+			<div class="text1">MILES CORVO</div>
+		</div>
+
+		<div class="container">
+
+			<span>
+				<p>computer engineer, music producer, game boy modder, MTG & vinyls collector, tristana bot otp</p>
+
+			</span>
+
+			<span>
+				<a href="https://www.github.com/fullcorvo">
+					<img src="images/icons/computer.png">
+				</a>
+				<p>GitHub</p>
+			</span>
+
+			<span>
+				<a href="https://www.instagram.com/milescorvo">
+					<img src="images/icons/camera3_network-4.png">
+				</a>
+				<p>Instagram</p>
+			</span>
+
+			<span>
+				<a href="https://www.youtube.com/channel/UCegFCi4kbVscBoXG4gQlMEA">
+					<image src="images/icons/camera3_vid-2.png">
+				</a>
+				<p>YouTube</p>
+			</span>
+
+		</div>
+
+	</body>
+
 </html>
