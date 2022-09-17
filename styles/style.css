@@ -55,16 +55,24 @@ p
 
  	display: flex;
  	flex-direction: column;
- 	justify-content: space-around;
+ 	justify-content: center;
+ 	align-items: center;
  	flex-wrap: wrap;
 
 }
 
 .container-row
 {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	text-align: center;
+	margin: 1em;
+	justify-items: space-around;
+}
+
+.grid-item
+{
+	justify-self: center;
 }
 
 footer
@@ -77,12 +85,15 @@ footer
 }
 
 /* For mobile phones: */
-@media only screen and (max-width: 768px) 
+@media only screen and (max-width: 1000px) 
 {
   .container-bordered 
   {
-    width: 60%;
+    width: 50%;
   }
 
-
+  .container-row
+  {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
