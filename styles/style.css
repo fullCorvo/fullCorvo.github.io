@@ -27,7 +27,7 @@ body
 	justify-content: center;
 }
 
-p
+p, p2, h1, h3
 {
 	font-family: manaspc;
 	color:  white;
@@ -76,6 +76,16 @@ p
 	height: 48px;
 }
 
+.music-textbox
+{
+	height: 100%;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
 
 footer
 {
@@ -103,6 +113,11 @@ footer
 	p
 	{
 		font-size: 12px;
+	}
+
+	.p1
+	{
+		font-size: 8px;
 	}
 
 	.container-bordered 
