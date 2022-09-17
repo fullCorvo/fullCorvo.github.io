@@ -63,17 +63,13 @@ p
 
 .container-row
 {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	text-align: center;
-	margin: 1em;
-	justify-items: space-around;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
 }
 
-.grid-item
-{
-	justify-self: center;
-}
 
 footer
 {
@@ -87,13 +83,24 @@ footer
 /* For mobile phones: */
 @media only screen and (max-width: 1000px) 
 {
-  .container-bordered 
-  {
-    width: 50%;
-  }
+	.text1
+	{
+		font-size: 20px;
+	}
 
-  .container-row
-  {
-    grid-template-columns: repeat(2, 1fr);
-  }
+	p
+	{
+		font-size: 8px;
+	}
+
+	.container-bordered 
+	{
+	width: 50%;
+	}
+
+	.icon
+	{
+		width: 20px;
+		height: 20px;
+	}
 }
