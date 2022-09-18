@@ -103,6 +103,7 @@ a:visited
 
 .container-row-music
 {
+	height: 100%;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -149,8 +150,13 @@ a:visited
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: flex-start;
+}
+
+.music-link-wrapper
+{
+	margin-bottom: 5px;
 }
 
 footer
