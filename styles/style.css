@@ -60,6 +60,13 @@ a:hover
 	text-decoration: underline;
 }
 
+a:visited
+{
+	color: purple;
+	text-shadow: 1px 1px black;
+	text-decoration: underline;
+}
+
 .text1
 {
 	font-family: LadyRadical;
