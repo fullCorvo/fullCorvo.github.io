@@ -1,25 +1,30 @@
 /* Window Engine - MIT License - Copyright (c) 2019 Gauthier Staehler */
 
-.window {
+.window 
+{
 	position: absolute;
 	top: 100px;
 	left: 500px;
 	z-index: 9;
-	background-color: #C0C0C0;
+	background-color: transparent;
 	width: 500px;
 	height: 400px;
 	display: none;
 }
 
-[id$="header"] {
-	padding-left: 6px;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	height: 25px;
+[id$="header"] 
+{
+	background-color: black;
+	display: flex;
 	justify-content: center;
+	align-items: center;
 	cursor: move;
-	background-color: #22017a;
 	color: white;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+
+	border: 3px solid yellow;
+	border-style: ridge;
 
 	text-align: center;
 	-webkit-touch-callout: none;
@@ -44,7 +49,8 @@
 }
 
 .container, object {
-	border: inset;
+	border: 3px solid yellow;
+	border-style: ridge;
 	width: 100%;
 	height: 100%;
 }
