@@ -2,7 +2,7 @@
 
 const metaTag = document.createElement("meta");
 metaTag.name = "viewport";
-metaTag.content = "user-scalable=0";
+metaTag.content = "width=device-width, initial-scale=1.0";
 document.getElementsByTagName("head")[0].appendChild(metaTag);
 
 const lastWindow = document.getElementsByClassName("windowGroup")[0].lastElementChild.id.substring(6);

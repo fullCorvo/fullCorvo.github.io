@@ -85,6 +85,21 @@
 	margin-bottom: 1rem;
 }
 
+button {
+  font-size:11px;
+  outline:1px solid #000000;
+  background:#C0C0C0;
+  border-width:1px;
+  border-style:solid;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  padding:4px 10px;
+  bottom:0px;
+}
+
+button:active {
+  border-style: inset;
+}
+
 
 @media only screen and (max-width: 1000px) 
 {
