@@ -106,7 +106,7 @@ button:active {
 
 	.window, .large
 	{
-		width: 400;
-		height: 200;
+		width: 100px;
+		height: 200px;
 	}
 }
