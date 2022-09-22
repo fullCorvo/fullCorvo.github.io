@@ -237,7 +237,7 @@ footer
 
 	h4
 	{
-		font-size: 10px;
+		font-size: 12px;
 	}
 
 	p3
@@ -277,6 +277,11 @@ footer
 		flex-direction: column;
 		align-items: flex-start;
 		justify-content: start;
+	}
+
+	iframe
+	{
+		height: 100px;
 	}
 
 
