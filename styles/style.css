@@ -32,7 +32,7 @@ body
 	align-items: center;
 }
 
-p, p2, p3, h1, h3, h4
+p, p2, p3, h1, h3, h4, h5
 {
 	font-family: manaspc;
 	color:  white;
@@ -176,6 +176,12 @@ footer
 
 }
 
+iframe
+{
+	width: 440px; 
+	height: 250px;
+}
+
 /* For mobile phones: */
 @media only screen and (max-width: 1000px) 
 {
@@ -246,6 +252,11 @@ footer
 		margin: 0;
 	}
 
+	h5
+	{
+		font-size: 8px;
+	}
+
 	a
 	{
 		font-size: 8px;
@@ -281,7 +292,8 @@ footer
 
 	iframe
 	{
-		height: 100px;
+		width: 200px;
+		height: 115px;
 	}
 
 
