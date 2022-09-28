@@ -25,16 +25,21 @@ function createWindow(id) {
     document.getElementById("closeButton" + id).onclick = function () {
         fadeOut(windowID);
     };
-    document.getElementById("button" + id).onclick = function () {
-        if (windowID.style.display === "initial") {
+
+    document.getElementById("button" + id).onclick = function () 
+    {
+        if (windowID.style.display === "initial") 
+        {
 			activeWindow(windowID);
-        } else {
+        }
+
+        else 
+        {
             windowID.style = "position: absolute;";
-            windowID.style = "top: 100px;";
-            windowID.style = "left: 40px;";
             fadeIn(windowID);
         }
     };
+
     dragElement(windowID);
 }
 
@@ -109,6 +114,7 @@ function fadeOut(elmnt) {
     elmnt.style.display = "none";
     activeWindow(elmnt);
 }
+
 
 function activeWindow(elmnt) {
     for (let i = active.length - 1; i > -1; i--) {

@@ -83,6 +83,15 @@
 .large {
 	width: 700px;
 	height: 500px;
+	top: 100px;
+	left: 5%;
+}
+
+.extralarge {
+	width: 900px;
+	height: 600px;
+	top: 10%;
+	left: 35%;
 }
 
 *,
@@ -124,6 +133,13 @@ button:active {
 	{
 		width: 300px;
 		height: 400px;
+	}
+
+	.extralarge
+	{
+		width: 400px;
+		height: 400px;
+		left: 10%;
 	}
 
 	button
