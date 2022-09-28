@@ -178,8 +178,9 @@ footer
 
 iframe
 {
-	width: 440px; 
-	height: 250px;
+	width: 750px; 
+	height: 400px;
+	margin-bottom: 1%;
 }
 
 /* For mobile phones: */
@@ -292,8 +293,8 @@ iframe
 
 	iframe
 	{
-		width: 200px;
-		height: 115px;
+		width: 350px;
+		height: 200px;
 	}
 
 

@@ -117,6 +117,7 @@ button
 	border-style: ridge;
 	padding: 4px 10px;
 	bottom: 0px;
+	margin-bottom: 25%;
 
 	box-shadow: 2px 2px 10px black;
 }
@@ -142,8 +143,4 @@ button:active {
 		left: 10%;
 	}
 
-	button
-	{
-		margin-bottom: 25%;
-	}
 }
